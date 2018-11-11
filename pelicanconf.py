@@ -13,8 +13,11 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'fr'
 
 #THEME = '/Users/vdagoury/Projects/yoldee.fr/00_Websites/www/themes/pelican-twitchy/'
+THEME = 'attila-1.3'
 
-THEME = '/Users/vdagoury/Projects/yoldee.fr/00_Websites/www/themes/attila/'
+HEADER_COVER = 'theme/images/home-bg.jpg'
+
+COLOR_SCHEME_CSS = 'monokai.css'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -30,8 +33,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('envelope', 'mailto:yodleefr@gmail.com'),
+          ('twitter', 'https://twitter.com/yoldee'),
+          ('blogger', 'https://blog.yoldee.fr'))
 
 DEFAULT_PAGINATION = 10
 
