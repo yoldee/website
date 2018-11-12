@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Yoldee.fr'
 SITENAME = 'Yoldee.fr'
-SITEURL = ''
+SITEURL = 'http://www.yoldee.fr'
 
 PATH = 'content'
 
@@ -36,6 +36,17 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('envelope', 'mailto:yodleefr@gmail.com'),
           ('twitter', 'https://twitter.com/yoldee'),
           ('blogger', 'https://blog.yoldee.fr'))
+
+AUTHORS_BIO = {
+  "Yoldee.fr": {
+    "name": "Yoldee.fr",
+    "cover": "https://yoldee.github.io/website/assets/images/avatar.png",
+    "image": "https://avatars1.githubusercontent.com/u/44941961?s=460&v=4",
+    "website": "http://blog.yoldee.fr",
+    "location": "FRANCE",
+    "bio": "This is the place for a small company that wants to grow. Cool, hugh?"
+  }
+}
 
 DEFAULT_PAGINATION = 10
 

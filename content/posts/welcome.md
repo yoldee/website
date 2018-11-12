@@ -9,9 +9,3 @@ Un nouveau jour se lève
 =======================
 
 Nous sommes heureux, tellement heureux...
-
-# Installation
-
-```bash
-$ ls -alrt
-```
